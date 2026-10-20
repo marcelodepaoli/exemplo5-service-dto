@@ -1,6 +1,5 @@
 package br.senac.sp.tads.dsw.exemplo5.controller;
 
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,9 +25,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest
 @AutoConfigureMockMvc
-@Transactional 
+@Transactional
 public class FuncionarioControllerTest {
-    
+
     @Autowired
     private MockMvc mockMvc;
 
@@ -76,7 +75,7 @@ public class FuncionarioControllerTest {
 
     }
 
-    @Test 
+    @Test
     void deveApagarFuncionario() throws Exception {
 
     }
